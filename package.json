@@ -17,7 +17,9 @@
     "plugin:install": "yarn install && rm -rf node_modules/@strapi/helper-plugin"
   },
   "dependencies": {
+    "formdata-node": "^5.0.0",
     "immutable": "^3.8.2",
+    "node-fetch": "^3.3.0",
     "redux-immutable": "^4.0.0",
     "redux-thunk": "^2.3.0",
     "sitemap": "^7.1.0",
