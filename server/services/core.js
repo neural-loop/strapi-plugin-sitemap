@@ -1,7 +1,8 @@
 'use strict';
 
-import { FormData } from 'formdata-node';
-import fetch, { blobFrom } from 'node-fetch';
+// import fetch, { blobFrom } from 'node-fetch';
+const { FormData } = require('formdata-node');
+const { fetch, blobFrom } = require('node-fetch');
 
 /**
  * Sitemap service.
